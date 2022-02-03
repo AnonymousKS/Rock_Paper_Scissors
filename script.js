@@ -57,14 +57,6 @@ function playRound(playerSelection, computerSelection) {
     }
     winner();
 }
-// function game() {
-//     let playerSelection = btnElement.value;
-//     console.log(playerSelection);
-//     console.log(computerSelection);
-//     result = playRound(playerSelection, computerSelection);
-//     console.log(result);
-//     console.log(`Computer Score: ${computerScore}\nPlayer Score: ${playerScore}`);
-// }
 
 function getPlayerChoice(e) {
     const computerSelection = computerPlay(playVar);
@@ -97,13 +89,3 @@ function winner() {
         }
     }
 }
-
-// if(computerScore === playerScore) {
-//     console.log('The game is a tie.')
-// }
-// else if(computerScore > playerScore) {
-//     console.log('Computer wins the game.')
-// }
-// else {
-//     console.log('Player wins the game.')
-// }
